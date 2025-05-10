@@ -1,0 +1,4 @@
+- Imputes missing values using only similar cases in a dataset
+- It finds the K samples in the dataset "closest" to an incomplete data point and then averages the K data points to fill in the missing value.
+- The optimal value of K is usually chosen by [[Cross-Validation]] 
+- Can impute both #continuous variables (the mean or weighted mean among the k-nearest neighbors) and #categorical variables the mode among the k-nearest neighbors)

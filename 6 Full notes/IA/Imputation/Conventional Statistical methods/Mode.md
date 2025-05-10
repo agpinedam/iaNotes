@@ -1,0 +1,2 @@
+- For #categorical values
+- Missing values are impute by this mode

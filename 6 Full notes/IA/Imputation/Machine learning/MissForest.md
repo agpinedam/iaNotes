@@ -1,0 +1,5 @@
+- Is based on random forest RF
+- MissForest first fits a RF with ${X}_k^M \sim X_{-k}^M$ using rows that do not contain missing $X_{k}^M$ value, then uses RF to predict missing values in $X_{k}^M$ 
+- For the first iteration, missForest makes an initial guess for the missing values in $X^M$ using mean imputation or another simple imputation method.
+- The whole procedure is repeated until a stopping criterion is met.
+-  Using the built-in [[Out-of-bagg OOB]] error estimates of random forest, one can estimate the imputation error without the need of a test set. 

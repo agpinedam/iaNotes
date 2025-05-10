@@ -1,0 +1,1 @@
+-  It adds an additional random error term to the predicted value imputed by deterministic regression imputation 
